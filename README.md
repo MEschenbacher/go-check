@@ -15,6 +15,30 @@ import "github.com/NETWAYS/go-check"
 
 <!-- TODO: add more information and usage examples -->
 
+```go
+package main
+
+import (
+	"github.com/NETWAYS/go-check"
+	"github.com/NETWAYS/go-check/result"
+)
+
+func performChecks(overall *result.Overall) {
+	overall.AddOK("an item is fine")
+	overall.AddWarning("an item is not fine")
+	overall.AddCritical("an item is FAR FROM FINE!")
+}
+
+func main() {
+	defer check.CatchPanic()
+
+	overall := &result.Overall{}
+	performChecks(overall)
+
+	check.Exit(overall.GetStatus(), overall.GetOutput())
+}
+```
+
 ## License
 
 Copyright (c) 2020 [NETWAYS GmbH](info@netways.de)
