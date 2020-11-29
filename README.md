@@ -15,6 +15,10 @@ import "github.com/NETWAYS/go-check"
 
 <!-- TODO: add more information and usage examples -->
 
+### Example with arguments
+
+### Simple example
+
 ```go
 package main
 
