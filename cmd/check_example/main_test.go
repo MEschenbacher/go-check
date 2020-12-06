@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/NETWAYS/go-check/testhelper"
+	"github.com/meschenbacher/go-check/testhelper"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"regexp"

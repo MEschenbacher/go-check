@@ -2,7 +2,7 @@ package check
 
 import (
 	"fmt"
-	"github.com/NETWAYS/go-check/convert"
+	"github.com/meschenbacher/go-check/convert"
 	log "github.com/sirupsen/logrus"
 	"runtime"
 	"time"

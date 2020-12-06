@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/NETWAYS/go-check"
+	"github.com/meschenbacher/go-check"
 	log "github.com/sirupsen/logrus"
 )
 

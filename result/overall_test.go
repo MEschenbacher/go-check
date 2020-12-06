@@ -2,7 +2,7 @@ package result
 
 import (
 	"fmt"
-	"github.com/NETWAYS/go-check"
+	"github.com/meschenbacher/go-check"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

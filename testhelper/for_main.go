@@ -2,7 +2,7 @@ package testhelper
 
 import (
 	"bytes"
-	"github.com/NETWAYS/go-check"
+	"github.com/meschenbacher/go-check"
 	"io"
 	"os"
 )
