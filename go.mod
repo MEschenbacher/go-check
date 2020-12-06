@@ -1,4 +1,4 @@
-module github.com/NETWAYS/go-check
+module github.com/meschenbacher/go-check
 
 go 1.14
 
